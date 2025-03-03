@@ -36,8 +36,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t rlawldnjs/springbootdocker:2.0 ./SpringBootApp_test
+        docker build -t rlawldnjs/springbootdocker:1.2 ./SpringBootApp_test
 
     - name: Push Docker Images to Docker Hub
       run: |
-        docker push rlawldnjs/springbootdocker:2.0
+        docker push rlawldnjs/springbootdocker:1.0
